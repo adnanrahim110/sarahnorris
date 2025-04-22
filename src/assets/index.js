@@ -1,0 +1,12 @@
+export { default as author } from './images/author.jpg';
+export { default as bookbanner } from './images/bookbanner.png';
+export { default as bookcover } from './images/bookcover.png';
+export { default as logo_l } from './images/logo_l.png';
+export { default as logo_l_w } from './images/logo_l_w.png';
+export { default as logo_v } from './images/logo_v.png';
+export { default as rm1 } from './images/rm1.jpg';
+export { default as rm2 } from './images/rm2.jpg';
+export { default as rm3 } from './images/rm3.jpg';
+export { default as rw1 } from './images/rw1.jpg';
+export { default as rw2 } from './images/rw2.jpg';
+export { default as rw3 } from './images/rw3.jpg';
