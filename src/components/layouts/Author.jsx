@@ -8,10 +8,10 @@ const Author = () => {
       <div className="w-full px-3 mx-auto">
         <div className="row items-center justify-between">
           <div className="md:w-5/12">
-            <div className="relative overflow-hidden max-h-[450px]">
+            <div className="relative overflow-hidden max-h-[490px]">
               <img
                 src={author}
-                className="w-full h-full object-cover object-center max-h-[450px]"
+                className="w-full h-full object-cover object-bottom max-h-[500px]"
                 alt=""
               />
             </div>
