@@ -1,10 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Donate from "../components/layouts/Donate";
 import Button from "../components/ui/Button";
 
 const ContactPrayers = () => {
   return (
     <>
+      <Helmet>
+        <title>Contact & Prayers - Sarah Norris</title>
+      </Helmet>
       <section className="pt-[150px] pb-0 bg-secondary-100">
         <div className="w-full px-3 mx-auto">
           <div className="row">

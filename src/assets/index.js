@@ -1,7 +1,6 @@
 export { default as author } from './images/author.jpg';
 export { default as bookbanner } from './images/bookbanner.png';
 export { default as bookcover } from './images/bookcover.png';
-export { default as favicon } from './images/favicon.png';
 export { default as logo_l } from './images/logo_l.png';
 export { default as logo_l_w } from './images/logo_l_w.png';
 export { default as rm1 } from './images/rm1.jpg';
