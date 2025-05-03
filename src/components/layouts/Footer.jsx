@@ -43,6 +43,7 @@ const Footer = () => {
                     return (
                       <li key={idx}>
                         <a
+                          target="_blank"
                           href={link.url}
                           className="text-2xl leading-none text-white hover:text-secondary"
                         >

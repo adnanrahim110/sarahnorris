@@ -4,6 +4,7 @@ import Footer from "./components/layouts/Footer";
 import Navbar from "./components/layouts/Navbar";
 import ContactPrayers from "./pages/ContactPrayers";
 import Home from "./pages/Home";
+import Products from "./pages/Products";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/contact-and-prayers" element={<ContactPrayers />} />
         </Routes>
       </main>

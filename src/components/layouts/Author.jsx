@@ -45,6 +45,7 @@ const Author = () => {
                     <a
                       href={social.url}
                       key={idx}
+                      target="_blank"
                       className="flex items-center justify-center w-11 h-11 text-center text-[22px] text-white bg-secondary hover:bg-transparent border-2 border-secondary hover:text-secondary rounded-full"
                     >
                       <Icon className="leading-none" />
