@@ -35,7 +35,7 @@ export const navigation = [
 export const socialLinks = [
   {
     title: "Facebook",
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=100008890083615",
     icon: FaFacebookF
   },
   {
