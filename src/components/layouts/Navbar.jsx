@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2, RxHamburgerMenu } from "react-icons/rx";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { logo_l } from "../../assets";
 import { navigation } from "../../constant";
@@ -59,8 +59,8 @@ function Navbar() {
   };
 
   const navClasses = isFixed
-    ? "fixed top-0 left-0 w-full bg-white border-b border-neutral-300 z-50"
-    : "absolute top-0 left-0 w-full bg-white z-50";
+    ? "fixed top-0 left-0 w-full bg-primary-50 border-b border-neutral-400 z-50"
+    : "absolute top-0 left-0 w-full bg-primary-50 z-50";
 
   const linkBase =
     "text-15p px-[15px] py-2 transition-all duration-300 ease-in-out underline underline-offset-2";
@@ -71,19 +71,19 @@ function Navbar() {
     <header>
       <nav
         ref={navRef}
-        className={`${navClasses} flex flex-col lg:flex-row items-center lg:justify-between transition-all duration-300 ease-in-out`}
+        className={`${navClasses} p-1 flex flex-col lg:flex-row items-center lg:justify-between transition-all duration-300 ease-in-out`}
       >
         <div className="w-full flex items-center justify-between px-3 py-2 lg:py-0">
           <Link to="/">
-            <img src={logo_l} className="max-w-[150px]" alt="Logo" />
+            <img src={logo_l} className="max-w-[200px] -mb-3.5" alt="Logo" />
           </Link>
 
           {/* Hamburger button */}
           <button
             onClick={() => setMenuOpen((o) => !o)}
-            className="block lg:hidden text-3xl border border-neutral-300 p-1 rounded-md"
+            className="block lg:hidden text-3xl p-1 rounded-md text-primary-600 hover:text-primary-900 transition-all duration-200 ease-in-out"
           >
-            <GiHamburgerMenu />
+            {menuOpen ? <RxCross2 /> : <RxHamburgerMenu />}
           </button>
 
           {/* Desktop menu */}

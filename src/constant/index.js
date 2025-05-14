@@ -27,7 +27,7 @@ export const navigation = [
     url: "/products",
   },
   {
-    title: "Contact & Prayers",
+    title: "Contact / Prayers & Newsletter",
     url: "/contact-and-prayers",
   },
 ]
@@ -67,17 +67,9 @@ export const verses = [
 
 export const crisResources = [
   {
-    title: "Book 1",
+    title: "The Holy Spirit: God’s Gift for You",
     url: "#"
   },
-  {
-    title: "Book 2",
-    url: "#"
-  },
-  {
-    title: "Book 3",
-    url: "#"
-  }
 ]
 
 export const reviews = [

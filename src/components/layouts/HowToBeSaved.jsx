@@ -30,18 +30,20 @@ const HowToBeSaved = () => {
           <div className="lg:w-7/12">
             <div className="w-full bg-primary-50/30 p-4 rounded-[10px] border border-secondary-300 max-md:text-center">
               <h2 className="title max-md:mb-4">Christian Resources</h2>
-              <p>Check out our recommended Christian books and resources:</p>
+              <p>Check out my recommended Christian product:</p>
             </div>
           </div>
-          <div className="lg:w-5/12">
-            <div className="row gap-y-2">
+          <div className="lg:w-5/12 self-stretch">
+            <div className="row gap-y-2 h-full">
               {crisResources.map((resource, idx) => (
                 <div key={idx} className="w-full max-md:text-center">
                   <a
                     href={resource.url}
-                    className="block w-full bg-primary-50/30 border border-secondary-300 p-5 rounded-[10px]"
+                    className="flex items-center w-full h-full bg-primary-50/30 border border-secondary-300 hover:bg-secondary group p-5 rounded-[10px]"
                   >
-                    <h4 className="text-xl leading-[0]">{resource.title}</h4>
+                    <h4 className="text-3xl group-hover:text-white">
+                      {resource.title}
+                    </h4>
                   </a>
                 </div>
               ))}

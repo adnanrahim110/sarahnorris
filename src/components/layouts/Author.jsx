@@ -1,4 +1,3 @@
-import React from "react";
 import { author } from "../../assets";
 import { socialLinks } from "../../constant";
 
@@ -11,7 +10,7 @@ const Author = () => {
             <div className="relative overflow-hidden max-h-[490px]">
               <img
                 src={author}
-                className="w-full h-full object-cover object-bottom max-h-[500px]"
+                className="w-full h-full object-cover object-top max-h-[400px]"
                 alt=""
               />
             </div>

@@ -16,10 +16,6 @@ const ContactPrayers = () => {
               <div className="h-full flex flex-col items-center justify-center pb-[100px] max-md:text-center">
                 <span className="subtitle">contact & prayers</span>
                 <h1 className="title mb-4">Contact Me For Prayers</h1>
-                <p>
-                  A guide to unlocking the gifts of the Holy Spirit and living a
-                  life of faith and purpose.
-                </p>
               </div>
             </div>
           </div>
