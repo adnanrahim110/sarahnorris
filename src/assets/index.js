@@ -24,3 +24,4 @@ export { default as rm3 } from './images/rm3.jpg';
 export { default as rw1 } from './images/rw1.jpg';
 export { default as rw2 } from './images/rw2.jpg';
 export { default as rw3 } from './images/rw3.jpg';
+export { default as rw4 } from './images/rw4.jpg';

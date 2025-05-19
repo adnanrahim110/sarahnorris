@@ -34,16 +34,22 @@ const Reviews = () => {
                         modules={[Autoplay]}
                         autoplay={{ delay: carouselIdx === 0 ? 2500 : 3000 }}
                         loop
-                        slidesPerView={2}
+                        slidesPerView={carouselIdx === 0 ? 2 : 1}
                         spaceBetween={30}
                         breakpoints={{
                           0: { slidesPerView: 1, autoplay: { delay: 2500 } },
-                          768: { slidesPerView: 2 },
+                          768: { slidesPerView: carouselIdx === 0 ? 2 : 1 },
                         }}
                       >
                         {chunk.map((review, idx) => (
                           <SwiperSlide key={idx}>
-                            <div className="min-h-[280px] p-10 flex flex-col items-start justify-between rounded-lg bg-white">
+                            <div
+                              className={`${
+                                carouselIdx === 0
+                                  ? "min-h-[350px]"
+                                  : "lg:min-h-[375px]"
+                              } p-10 flex flex-col items-start justify-between rounded-lg bg-white`}
+                            >
                               <p>{review.comment}</p>
                               <div className="flex gap-6 items-center">
                                 <img

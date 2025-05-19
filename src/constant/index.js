@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6"
-import { products_1, products_10, products_11, products_12, products_13, products_14, products_15, products_2, products_3, products_4, products_5, products_6, products_7, products_8, products_9, rm1, rm2, rm3, rw1, rw2, rw3 } from "../assets"
+import { products_1, products_10, products_11, products_12, products_13, products_14, products_15, products_2, products_3, products_4, products_5, products_6, products_7, products_8, products_9, rm1, rw1, rw2, rw3, rw4 } from "../assets"
 
 export const navigation = [
   {
@@ -74,41 +74,30 @@ export const crisResources = [
 
 export const reviews = [
   {
-    name: "Loren Joe",
-    title: "Influencer",
+    name: "Janice Long",
     img: rw1,
-    comment: "This book opened my eyes to the incredible ways the Holy Spirit works in our lives. It gave me practical tools for my spiritual journey."
+    comment: "Sarah uses her personal and Biblical knowledge to describe the Holy Spirit’s purpose and application in your everyday life.This book is informative and relatable.I highly recommend this well - written book to anyone desiring a better understanding of the Holy Spirit."
   },
   {
-    name: "Johnny Parker",
-    title: "Counselor",
+    name: "Sharon Wilson",
     img: rm1,
-    comment: "This book gave me confidence in my faith and a new sense of peace. Sarah Norris beautifully explains how the Holy Spirit works in our everyday lives."
+    comment: "This book gives insight of how and what the Holy Spirit can do, when you have him living inside of you.Then you will seek Me, inquire for, and require Me(as a vital necessity) and find Me when you search for Me with all your heart.Jeremiah 29: 13."
   },
   {
-    name: "Tim Kevin",
-    title: "",
-    img: rm2,
-    comment: "Reading this book felt like having a conversation with a dear friend who truly understands faith and life."
-  },
-  {
-    name: "Ronald Dan",
-    title: "Influencer",
-    img: rm3,
-    comment: "The practical insights helped me understand how to hear God’s voice and trust His guidance. Highly recommended!"
-  },
-  {
-    name: "Tina Michelle",
-    title: "Bible Study Teacher",
+    name: "Deronda Graham",
     img: rw3,
-    comment: "I never truly understood the power of the Holy Spirit until I read this book. It’s like having a personal mentor guiding you through your spiritual journey."
+    comment: "The book brought back special memories of playing with Sarah at her Grandmother Jackson’s house. She would be so proud of your courage to share your life experiences of Spiritual Gifts of the Holy Spirit. The book gave me a better understanding of my relationship with the Holy Spirit as a Christian."
   },
   {
-    name: "Lina Mic",
-    title: "Professor",
+    name: "Donna Spivey",
     img: rw2,
-    comment: "This book has transformed my faith! Sarah Norris explains the Holy Spirit’s role in such a clear and powerful way. I now feel more connected to God than ever before."
-  }
+    comment: "The Holy Spirit God’s Gift for You is a must read for anyone desiring a deeper relationship with God and a clearer understanding of his Spirit’s work.Reading this book reshaped my understanding of the Holy Spirit’s active presence in my daily life.This book is rich with personal stories and scriptural backing, illustrating how the Holy Spirit leads believers in decisions both big and small.I wish I had known these things about the Holy Spirit when I was a new believer.For the ones who do not know this mysterious third person of the Trinity, this book will introduce you to him. This book has impacted my view of the Holy Spirit and increased my personal awareness and insights to deepen my faith and understanding on how to be more aware of God’s still small voice and to be still and listen to our Father."
+  },
+  {
+    name: "Wanda Cox",
+    img: rw4,
+    comment: "This book has so many examples of my own past experiences, even the feathers.The Holy Spirit is very real, and we can stand and trust His guidance and know we each have a special purpose in this life.I’m sure many believers will be encouraged to have a deeper relationship with our Lord Jesus Christ and will be more dependent on the Holy Spirit’s leading as we help others unbelief.May God’s blessings and gifts help change many lives."
+  },
 ];
 
 export const products = [
