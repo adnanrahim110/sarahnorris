@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="pb-0 pt-[150px] md:mb-14 bg-secondary-100">
+    <section className="pb-0 pt-[150px] md:mb-14 bg-secondary-50">
       <div className="w-full px-3 mx-auto">
         <div className="row justify-between flex-col-reverse md:flex-row">
           <div className="lg:w-6/12">
@@ -31,6 +31,10 @@ const Hero = () => {
             </div>
           </div>
           <div className="lg:w-5/12">
+            <p className="text-center font-medium mb-1.5 text-black text-xs">
+              Not by might, nor by power, but by my Spirit, saith the Lord.
+              (Zech 4:6 KJV)
+            </p>
             <div className="md:-mb-[50px] shadow-[0_5px_30px_rgba(0,0,0,0.1)]">
               <img src={bookcover} alt="" className="w-full h-full" />
             </div>

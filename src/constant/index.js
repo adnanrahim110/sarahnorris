@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6"
+import { FaFacebookF, FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6"
 import { products_1, products_10, products_11, products_12, products_13, products_14, products_15, products_2, products_3, products_4, products_5, products_6, products_7, products_8, products_9, rm1, rw1, rw2, rw3, rw4 } from "../assets"
 
 export const navigation = [
@@ -33,6 +33,11 @@ export const navigation = [
 ]
 
 export const socialLinks = [
+  {
+    title: "Youtube",
+    url: "https://www.youtube.com/channel/UCfSWChxTi0cUrFtdBt9kW2w",
+    icon: FaYoutube
+  },
   {
     title: "Facebook",
     url: "https://www.facebook.com/profile.php?id=100008890083615",

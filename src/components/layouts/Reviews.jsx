@@ -52,11 +52,6 @@ const Reviews = () => {
                             >
                               <p>{review.comment}</p>
                               <div className="flex gap-6 items-center">
-                                <img
-                                  src={review.img}
-                                  alt={review.name}
-                                  className="w-12 h-12 rounded-full"
-                                />
                                 <div>
                                   <h5 className="text-lg">{review.name}</h5>
                                   <p className="m-0">{review.title}</p>

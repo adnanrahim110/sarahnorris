@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { crisResources, verses } from "../../constant";
 
 const HowToBeSaved = () => {
@@ -28,10 +29,13 @@ const HowToBeSaved = () => {
         </div>
         <div className="row justify-between items-center mt-16 gap-y-5">
           <div className="lg:w-7/12">
-            <div className="w-full bg-primary-50/30 p-4 rounded-[10px] border border-secondary-300 max-md:text-center">
+            <Link
+              to="/products"
+              className="w-full block hover:bg-primary-100 bg-primary-50/30 p-4 rounded-[10px] border border-secondary-300 max-md:text-center"
+            >
               <h2 className="title max-md:mb-4">Christian Resources</h2>
               <p>Check out my recommended Christian product:</p>
-            </div>
+            </Link>
           </div>
           <div className="lg:w-5/12 self-stretch">
             <div className="row gap-y-2 h-full">
